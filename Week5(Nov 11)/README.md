@@ -3,7 +3,7 @@
 
 Welcome to the Week 5 deliverable! I have separate announcements for Team 1 (Fine-Tuning) and Team 2 (Literature Review). Please read both announcements.
 
-Team 1
+# Team 1
 
 After considering both our team’s goal of trustworthy content moderation by debiasing a large language model and the feasibility of building our own classifier, I am leaning towards integrating a BERT model provided by Vertex AI, supplemented with debiasing techniques from the literature. However, a significant challenge is the limited flexibility to apply debiasing techniques—such as adding parameters, layers, attention heads, or even custom layers—when using Vertex AI’s managed BERT models, which have a fixed architecture.
 
@@ -18,7 +18,8 @@ This week, I’d like Team 1 to familiarize themselves with the different BERT m
 
 Please think about which approach you’d like to take, as the above is just my initial idea. I’m open to hearing and incorporating your opinions on how we should proceed.
 
-Team 2 (Literature Review)
+# Team 2 
+
 For Team 2, I’d like to request a literature review. As mentioned in the Team 1 announcement, one approach to debiasing (Option 1) involves adding an adversarial component during training, which requires further research. Please find one paper on techniques for debiasing during the training phase, such as the adversarial approach (though not limited to it). I’ve posted a paper on adversarial debiasing for word embeddings as an example.
 
 Please summarize your findings in a one-page Google Doc with the following:
