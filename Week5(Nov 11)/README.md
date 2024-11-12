@@ -31,5 +31,5 @@ Sharing your research in a 5-10 minute presentation during the weekly meeting wo
 
 # 
 
-If you have any questions or concerns, please reach out on our Discord channel. Don’t feel pressured by these tasks; I understand that both implementation and research can take time without immediate visible results. My priority is your thoughts on the project’s direction and any advice or feedback you can provide, rather than visible work alone.
+If you have any questions or concerns, please reach out on our Discord channel. Don’t feel pressured by these tasks; I know  both implementation and research can take time withoutvisible progress. I am looking forward to hearing thoughts on the project’s direction and any advice or feedback you can provide, rather than visible work alone.
 
