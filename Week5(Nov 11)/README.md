@@ -25,9 +25,10 @@ For Team 2, I’d like to request a literature review. As mentioned in the Team 
 
 Please summarize your findings in a one-page Google Doc with the following:
 
-Summary of the paper you read.
-Applicability of the technique to our project.
-Additional insights or comments you find relevant.
+1) Summary of the paper you read.
+2) Applicability of the technique to our project.
+3) Additional insights or comments you find relevant.(Optional)
+
 Sharing your research in a 5-10 minute presentation during the weekly meeting would be greatly appreciated. You’re free to present in whatever format you prefer, but please make sure the one-page Google Doc serves as a reference for the team.
 
 # 
