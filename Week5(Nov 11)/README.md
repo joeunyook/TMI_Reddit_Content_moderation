@@ -1,7 +1,7 @@
 # Week5(Nov11) 
 # Fine Tuning & Literature Review on Training data
 
-Welcome to the Week 5 deliverable! I have separate announcements for Team 1 (Fine-Tuning) and Team 2 (Literature Review). Please read both announcements.
+Welcome to the Week 5 deliverable! I have separate announcements for Team 1 (Fine-Tuning) and Team 2 (Literature Review). But, please read both announcements.
 
 # Team 1
 
