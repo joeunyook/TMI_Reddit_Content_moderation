@@ -22,19 +22,19 @@ pip install tensorflow
 4. Set Up Docker and Build Docker Image
 Run the following commands one by one in the JupyterLab terminal:
 
-touch Dockerfile
+    touch Dockerfile
 
-mkdir trainer
+    mkdir trainer
 
-touch trainer/task.py
+    touch trainer/task.py
 
-PROJECT_ID="tmi-reddit-content-moderation"
+    PROJECT_ID="tmi-reddit-content-moderation"
 
-IMAGE_URI="gcr.io/$PROJECT_ID/reddit-hypertune"
+    IMAGE_URI="gcr.io/$PROJECT_ID/reddit-hypertune"
 
-docker build ./ -t $IMAGE_URI
+    docker build ./ -t $IMAGE_URI
 
-docker push $IMAGE_URI
+    docker push $IMAGE_URI
 
 4. Verify Docker Push
 After pushing the image, verify it by navigating to:
