@@ -9,6 +9,7 @@ Runs on Google Cloud: The container is pushed to Google Container Registry (GCR)
 
 # To containerize and push the docker file to GCR follow these steps: 
 Containerizing and Pushing Docker File to Google Container Registry (GCR)
+
 Follow these steps to containerize and push your Docker file for hyperparameter tuning using Vertex AI:
 
 Steps
