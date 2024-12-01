@@ -16,17 +16,24 @@ Steps
 Navigate to Vertex AI > Workbench and open JupyterLab.
 
 2. Enable TensorFlow in JupyterLab
-Install TensorFlow in your JupyterLab terminal: pip install tensorflow
+Install TensorFlow in your JupyterLab terminal:
+pip install tensorflow
 
 4. Set Up Docker and Build Docker Image
 Run the following commands one by one in the JupyterLab terminal:
 
 touch Dockerfile
+
 mkdir trainer
+
 touch trainer/task.py
+
 PROJECT_ID="tmi-reddit-content-moderation"
+
 IMAGE_URI="gcr.io/$PROJECT_ID/reddit-hypertune"
+
 docker build ./ -t $IMAGE_URI
+
 docker push $IMAGE_URI
 
 4. Verify Docker Push
