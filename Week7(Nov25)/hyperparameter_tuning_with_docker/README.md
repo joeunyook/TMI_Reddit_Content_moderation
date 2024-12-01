@@ -35,6 +35,7 @@ Run the following commands one by one in the JupyterLab terminal:
     docker build ./ -t $IMAGE_URI
 
     docker push $IMAGE_URI
+   
 
 4. Verify Docker Push
 After pushing the image, verify it by navigating to:
