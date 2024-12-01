@@ -19,8 +19,7 @@ Navigate to Vertex AI > Workbench and open JupyterLab.
 Install TensorFlow in your JupyterLab terminal:
 pip install tensorflow
 
-4. Set Up Docker and Build Docker Image
-Run the following commands one by one in the JupyterLab terminal:
+4. Build Docker Image by running the following commands one by one in the JupyterLab terminal:
 
     touch Dockerfile
 
