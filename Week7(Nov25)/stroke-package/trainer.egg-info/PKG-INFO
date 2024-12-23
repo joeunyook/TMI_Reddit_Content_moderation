@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: trainer
+Version: 0.1
+Summary: My training application.
+Requires-Dist: gcsfs>=2021.4.0
