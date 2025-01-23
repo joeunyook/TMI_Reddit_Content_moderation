@@ -14,3 +14,5 @@ Successful GPU Setup and Training Progress / Finalizing Dataset
 
 Below is an example result of the accuracy and validation accuracy for categorizing the given social content based on the severity of the "insult" column. Note that the NVIDIA T4 GPU was utilized here.
 ![Validation Accuracy - gpu attached](https://github.com/user-attachments/assets/d94598bc-ce43-43ae-b603-db9a7c2c1aa0)
+
+![image](https://github.com/user-attachments/assets/16bba6c6-594f-42b1-a889-6c5528041ac9)
