@@ -15,7 +15,7 @@ The video and documentation are outdated—the versions for CUDA installation, c
 We are using external data from Hugging Face instead of the data provided by Google Cloud, so resolving extra dependencies for dataset loading in the Dockerfile is very nuanced. The Hugging Face documentation should be read thoroughly to handle these issues.
 
 ---
-For future reference, here are several aspects to be fully aware of when setting up hyperparameter tuning for your project:
+For future reference, here are several aspects to be fully aware of when setting up hyperparameter tuning for your project.
 In general, just follow the Google Cloud documentation for the setup; however, if hyperparameter tuning results in an error (you can view the log), follow these steps. While the Cloud Logging/Log Explorer in Vertex AI is useful for checking errors, it can be vague and may not clearly indicate the problem. Instead, follow these guidelines
 
 ## (Step 1) Verify Dataset Loading in JupyterLab terminal:
