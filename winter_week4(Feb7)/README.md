@@ -19,13 +19,13 @@ For future reference, here are several aspects to be fully aware of when setting
 
 In general, follow the Google Cloud documentation. However, if hyperparameter tuning results in an error (which you can view in the logs), consider the following steps:
 
-## (1) Verify Dataset Loading in JupyterLab terminal:
+## (Step 1) Verify Dataset Loading in JupyterLab terminal:
 Ensure that the dataset loads and the code runs correctly in your JupyterLab notebook terminal before containerizing your application. If it works locally, the code is likely fine.
 
-## (2) Monitor Resource Quotas:
+## (Step 2) Monitor Resource Quotas:
 Often, the maximum quota is reached for Compute Engine or GPU availability. Always check under IAM & Admin → Quota & System Limits to ensure the project has enough resources. If not, request a quota increase. Sometimes such requests may get denied so secure resources early.
 
-## (3) Review Dockerfile Dependencies:
+## (Step 3) Review Dockerfile Dependencies:
 If the dataset and code work locally, the issue is most likely due to Dockerfile dependencies. Make sure your Dockerfile uses:
 (i) A TensorFlow GPU base image with the correct Python version.
 (ii) Commands to upgrade pip and install the required libraries (for example:
