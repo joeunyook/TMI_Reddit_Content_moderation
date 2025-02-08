@@ -14,3 +14,21 @@ The video and documentation are outdated—the versions for CUDA installation, c
 ### ◉External Data Dependencies:
 We are using external data from Hugging Face instead of the data provided by Google Cloud, so resolving extra dependencies for dataset loading in the Dockerfile is very nuanced. The Hugging Face documentation should be read thoroughly to handle these issues.
 
+---
+For future reference, here are several aspects to be fully aware of when setting up hyperparameter tuning for your project:
+
+In general, follow the Google Cloud documentation. However, if hyperparameter tuning results in an error (which you can view in the logs), consider the following steps:
+
+## ◉Verify Dataset Loading in JupyterLab terminal:
+Ensure that the dataset loads and the code runs correctly in your JupyterLab notebook terminal before containerizing your application. If it works locally, the code is likely fine.
+
+## ◉Monitor Resource Quotas:
+Often, the maximum quota is reached for Compute Engine or GPU availability. Always check under IAM & Admin → Quota & System Limits to ensure the project has enough resources. If not, request a quota increase. Sometimes such requests may get denied so secure resources early.
+
+## ◉ Review Dockerfile Dependencies:
+If the dataset and code work locally, the issue is most likely due to Dockerfile dependencies. Make sure your Dockerfile uses:
+(i) A TensorFlow GPU base image with the correct Python version.
+(ii) Commands to upgrade pip and install the required libraries (for example:
+pip install cloudml-hypertune pandas numpy scikit-learn datasets).
+(iii) If you're using an external dataset (e.g., from Hugging Face), ensure your Docker environment’s dependencies and Python version match your local setup to load the dataset successfully.
+(Compare the “wrong Dockerfile” with the Dockerfile in this folder to see the differences.)
