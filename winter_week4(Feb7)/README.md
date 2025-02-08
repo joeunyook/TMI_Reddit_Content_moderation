@@ -33,7 +33,7 @@ pip install cloudml-hypertune pandas numpy scikit-learn datasets).
 (Compare the “wrong Dockerfile” with the Dockerfile in this folder to see the differences.)
 
 ---
-But the good news is that all these setup issues are now resolved, and hyperparameter tuning for any model (GRU, LSTM, BERT, etc.) is possible. For example, in the GRU model (insult_gru.py), the simple hyperparameters we control include embedding_dim, max_len, learning_rate, dropout_rate, batch_size, and epochs. However, as we discussed, we can also use another label from the Hugging Face hate speech data as a hyperparameter for the label we are interested in (for example, "insult" in this case) if we find a correlation between labels. Below is the result of a successful hyperparameter tuning job on a very simple task.
+But the good news is that all these setup issues are now resolved, and hyperparameter tuning for any model (GRU, LSTM, BERT, etc.) is possible. For example, in the GRU model (hyper_insult_gru.py), the simple hyperparameters we control include embedding_dim, max_len, learning_rate, dropout_rate, batch_size, and epochs. However, as we discussed, we can also use another label from the Hugging Face hate speech data as a hyperparameter for the label we are interested in (for example, "insult" in this case) if we find a correlation between labels. Below is the result of a successful hyperparameter tuning job on a very simple task.
 
 ![image](https://github.com/user-attachments/assets/a0ca0b69-79a3-4c0b-970c-f591d12fcdfa)
 
