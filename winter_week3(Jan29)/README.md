@@ -1,1 +1,1 @@
-
+The code here runs in the Jupyter Notebook using the CPU, but some intricate dependencies for the custom Docker and hyperparameter tuning job (which requires a GPU) have not yet been resolved. The fully working code for hyperparameter tuning is available in the winter_week4 folder. If you're looking for the finalized code for hyperparameter tuning, please ignore this folder and refer to the winter_week4 folder.
