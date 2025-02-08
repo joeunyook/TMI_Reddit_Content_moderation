@@ -16,8 +16,7 @@ We are using external data from Hugging Face instead of the data provided by Goo
 
 ---
 For future reference, here are several aspects to be fully aware of when setting up hyperparameter tuning for your project:
-
-In general, follow the Google Cloud documentation. However, if hyperparameter tuning results in an error (which you can view in the logs), consider the following steps:
+In general, just follow the Google Cloud documentation for the setup; however, if hyperparameter tuning results in an error (you can view the log), follow these steps. While the Cloud Logging/Log Explorer in Vertex AI is useful for checking errors, it can be vague and may not clearly indicate the problem. Instead, follow these guidelines
 
 ## (Step 1) Verify Dataset Loading in JupyterLab terminal:
 Ensure that the dataset loads and the code runs correctly in your JupyterLab notebook terminal before containerizing your application. If it works locally, the code is likely fine.
